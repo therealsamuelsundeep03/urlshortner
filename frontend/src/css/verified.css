@@ -1,0 +1,19 @@
+.verifedContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    margin-top: 15rem;
+    text-align: center;
+}
+.verifybutton{
+    outline: none;
+    border: none;
+    padding: 1rem;
+    width: 18rem;
+    background-color: #198754;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 20px;
+    margin:3rem 0rem 1.4rem;
+}

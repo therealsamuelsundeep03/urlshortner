@@ -1,0 +1,12 @@
+.loading{
+    position: absolute;
+    top: 0;left: 0;bottom: 0;right: 0;
+    display: flex;
+    padding-top: 8rem;
+    font-size: 40px;
+    left: 40vw;
+    /* background: #111; */
+}
+.signinloading{
+    display: none;
+}

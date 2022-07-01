@@ -1,0 +1,126 @@
+.shorturl{
+  background-image:linear-gradient(to left,#8E2DE2,#4A00E0);
+  position: absolute;
+  top:0;left: 0;right: 0;bottom: 0;
+}
+.loginurl{
+    margin:3rem;
+    color: #fff;
+  }
+  .loginurl > a{
+    color:#fff;
+    margin-left: 1rem;
+    text-decoration: underline;
+  }
+  .err{
+    color: #ff4545;
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    top: 28vw;
+    margin: auto;
+    left:40vw;
+    font-size: 18px;
+  }
+  .urlinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    margin-bottom: -8rem;
+    padding: 5rem;
+  }
+  .urlinput > input{
+    height: 3.3rem;
+    width: 30rem;
+    max-width: 40rem;
+    padding-left: 2rem;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+  .urlinput > button{
+    height: 3.3rem;
+    width: 9rem;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    /* background-image: linear-gradient(to right, # 0%, #  51%, #  100%) */
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 17px;
+  }
+  .table{
+    background-color: #ffff;
+    color: #111;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 50rem;
+  }
+  thead{
+    width: 3rem;
+  }
+  a{
+    color: #111;
+    text-decoration: none;
+  }
+  @media screen and (max-width:886px){
+    .table{
+      width: 40rem;
+    }
+    .urlinput{
+      width: 28rem;
+      margin-left: 7rem;
+    }
+  }
+  @media screen and (max-width:736px){
+    .table{
+      width: 35rem;
+    }
+  }
+  @media screen and (max-width:698px){
+    .table{
+      width: 30rem;
+    }
+    .urlinput{
+      width: 10rem;
+      margin-left: 17rem;
+    }
+  }
+  @media screen and (max-width:672px){
+    .table{
+      width: 30rem;
+    }
+    .urlinput{
+      width: 10rem;
+      margin-left: 14rem;
+    }
+  }
+  @media screen and (max-width:573px){
+    .table{
+      width: 26rem;
+    }
+    .urlinput{
+      width: 5rem;
+      margin-left: 11rem;
+    }
+  }
+  @media screen and (max-width:512px){
+    .table{
+      width: 24rem;
+    }
+    .urlinput{
+      width: 6rem;
+      margin-left: 9rem;
+    }
+  }
+  @media screen and (max-width:478px){
+    .table{
+      width: 20rem;
+    }
+    .urlinput>input{
+      width: 17rem;
+      margin-left: -2rem;
+    }
+  }

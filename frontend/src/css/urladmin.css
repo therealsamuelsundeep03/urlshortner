@@ -1,0 +1,36 @@
+.urlAdminContainer{
+    position:  absolute;
+    top: 0;left: 0;bottom: 0;right: 0;
+    background-image:linear-gradient(to left,#8E2DE2,#4A00E0);
+}
+.trashicon{
+    color: red;
+    margin-left: 2rem;
+}
+.trashicon:hover{
+    cursor: pointer;
+}
+.adminerr {
+    color: #ff4545;
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    top: 18vw;
+    margin: auto;
+    left:40vw;
+    font-size: 18px;
+}
+
+tr th{
+    padding: 2rem;
+}
+.signout{
+    outline: none;
+    border: none;
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 1rem;
+    position: absolute;
+    right: 1rem;
+    top:1rem
+}
